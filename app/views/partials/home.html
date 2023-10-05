@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://localhost/arsip_surat/Home -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>home</title>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="shortcut icon" href="http://localhost/arsip_surat/assets/images/favicon.png">
+				<meta name="theme-color" content="#000000">
+			<meta name="author" content="">
+			<meta name="keyword" content="">
+			<meta name="description" content="">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" href="./home_files/font-awesome.min.css">
+			<link rel="stylesheet" href="./home_files/animate.css">
+			<link rel="stylesheet" href="./home_files/blueimp-gallery.css">
+							<link rel="stylesheet" href="./home_files/bootstrap-theme-pulse-blue.css">
+			<link rel="stylesheet" href="./home_files/custom-style.css">
+					<link rel="stylesheet" href="./home_files/flatpickr.min.css">
+			<link rel="stylesheet" href="./home_files/summernote.min.css">
+			<link rel="stylesheet" href="./home_files/bootstrap-editable.css">
+			<link rel="stylesheet" href="./home_files/dropzone.min.css">
+			<script type="text/javascript" src="./home_files/jquery-3.3.1.min.js.download"></script>
+			</head>
+		<body id="main" class="with-login home-index" style="padding-top: 57.375px;">
+		<div id="page-wrapper">
+			<!-- Show progress bar when ajax upload-->
+			<div class="progress ajax-progress-bar">
+				<div class="progress-bar"></div>
+			</div>
+			<div id="topbar" class="navbar navbar-expand-md fixed-top navbar-dark bg-success">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="http://localhost/arsip_surat/Home">
+            <img class="img-responsive" src="./home_files/logo.png"> arsip_surat            </a>
+                        <button type="button" id="sidebarCollapse" class="btn btn-success">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse navbar-responsive-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://localhost/arsip_surat/Home#" data-toggle="dropdown">
+                                                        <img class="img-fluid" style="height:30px;" src="./home_files/no-image-available.png">
+                                                                <span>Hi Khanghanna !</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="http://localhost/arsip_surat/account"><i class="fa fa-user"></i> My Account</a>
+                                <a class="dropdown-item" href="http://localhost/arsip_surat/index/logout?csrf_token=858b3545e79fc0c8a378705e4497b05a"><i class="fa fa-sign-out"></i> Logout</a>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                            </div>
+        </div>
+                <nav id="sidebar" class="navbar-dark bg-success">
+            <ul class="nav navbar-nav w-100 flex-column align-self-start">
+                <li class="menu-profile text-center nav-item">
+                    <a class="avatar" href="http://localhost/arsip_surat/account">
+                                                <img class="img-fluid" src="./home_files/no-image-available.png">
+                                                    </a>
+                        <h5 class="user-name">Hi 
+                            Khanghanna                            <small class="text-muted">Admin </small>
+                        </h5>
+                        <div class="dropdown menu-dropdown">
+                            <button class="btn btn-primary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-user"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="http://localhost/arsip_surat/account"><i class="fa fa-user"></i> My Account</a>
+                                <a class="dropdown-item" href="http://localhost/arsip_surat/index/logout?csrf_token=858b3545e79fc0c8a378705e4497b05a"><i class="fa fa-sign-out"></i> Logout</a>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                			<ul id="menu-gtzca8qjo52s" class="nav navbar-nav w-100 flex-column align-self-start">
+											<li class="nav-item">
+								<a class="nav-link active" href="http://localhost/arsip_surat/home">
+																		<span class="menu-label">Home</span>
+								</a>
+							</li>
+											<li class="nav-item ">
+								<a class="nav-link dropdown-toggle" href="http://localhost/arsip_surat/Home#menu-p4589zigw3cl" data-boundary="viewport" data-toggle="collapse">
+																		<span class="menu-label">Arisp surat</span>
+								</a>
+											<ul id="menu-p4589zigw3cl" class="collapse submenu list-unstyled" data-parent="#menu-gtzca8qjo52s">
+											<li class="nav-item">
+								<a class="nav-link " href="http://localhost/arsip_surat/upload_dokumen">
+																		<span class="menu-label">Dokumen</span>
+								</a>
+							</li>
+											<li class="nav-item">
+								<a class="nav-link " href="http://localhost/arsip_surat/nota_dinas">
+																		<span class="menu-label">Nota Dinas</span>
+								</a>
+							</li>
+											<li class="nav-item">
+								<a class="nav-link " href="http://localhost/arsip_surat/surat_tugas">
+																		<span class="menu-label">Surat Tugas</span>
+								</a>
+							</li>
+											<li class="nav-item">
+								<a class="nav-link " href="http://localhost/arsip_surat/dp4">
+																		<span class="menu-label">Dp4</span>
+								</a>
+							</li>
+											<li class="nav-item">
+								<a class="nav-link " href="http://localhost/arsip_surat/kpi">
+																		<span class="menu-label">Kpi</span>
+								</a>
+							</li>
+											<li class="nav-item">
+								<a class="nav-link " href="http://localhost/arsip_surat/arsip">
+																		<span class="menu-label">Arsip</span>
+								</a>
+							</li>
+							</ul>
+										</li>
+													<li class="nav-item ">
+								<a class="nav-link dropdown-toggle" href="http://localhost/arsip_surat/Home#menu-sczpqh8xt5fv" data-boundary="viewport" data-toggle="collapse">
+																		<span class="menu-label">Tentang kami</span>
+								</a>
+											<ul id="menu-sczpqh8xt5fv" class="collapse submenu list-unstyled" data-parent="#menu-gtzca8qjo52s">
+											<li class="nav-item">
+								<a class="nav-link " href="http://localhost/arsip_surat/profil">
+																		<span class="menu-label">Profil</span>
+								</a>
+							</li>
+											<li class="nav-item">
+								<a class="nav-link " href="http://localhost/arsip_surat/struktur_organisasi">
+																		<span class="menu-label">Struktur Organisasi</span>
+								</a>
+							</li>
+											<li class="nav-item">
+								<a class="nav-link " href="http://localhost/arsip_surat/list">
+																		<span class="menu-label">List</span>
+								</a>
+							</li>
+											<li class="nav-item">
+								<a class="nav-link " href="http://localhost/arsip_surat/banner">
+																		<span class="menu-label">Banner</span>
+								</a>
+							</li>
+							</ul>
+										</li>
+													<li class="nav-item">
+								<a class="nav-link " href="http://localhost/arsip_surat/login">
+																		<span class="menu-label">Login</span>
+								</a>
+							</li>
+							</ul>
+		            </nav>
+            			<div id="main-content">
+				<!-- Page Main Content Start -->
+					<div id="page-content">
+						<div>
+    <div class="bg-light p-3 mb-3">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-md-12 comp-grid">
+                    <div class=" ">
+                        <section class="page" id="list-page-hdwuvne729iz" data-page-type="list" data-display-type="grid" data-page-url="http://localhost/arsip_surat/banner/list?limit_count=20">
+    <div class="my-5">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-md-12 comp-grid">
+                                        <a class="btn btn btn-primary my-1" href="http://localhost/arsip_surat/banner/add">
+                        <i class="fa fa-plus"></i>                              
+                    </a>
+                                        <div class="">
+                        <!-- Page bread crumbs components-->
+                                            </div>
+                                        <div class=" animated fadeIn page-content">
+                        <div id="banner-list-records">
+                                                        <div id="page-report-body">
+                                <div class="row sm-gutters page-data" id="page-data-list-page-hdwuvne729iz">
+                                    <!--record-->
+                                                                        <div class="col-sm-12">
+                                        <div class="bg-light p-2 mb-3 ">
+                                            <div><p><img src="./home_files/16-e-ARSIP-RIFIL-Aplikasi-0859-1065-02195-1-2-1024x345.png" style="width: 100%;"><br></p></div>
+                                            <div class="dropdown dropup td-btn">
+                                                <button data-toggle="dropdown" class="btn btn-flat btn-sm">
+                                                    <i class="fa fa-ellipsis-v"></i> 
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                                                                        <a class="dropdown-item" href="http://localhost/arsip_surat/banner/view/1">
+                                                        <i class="fa fa-eye"></i> View 
+                                                    </a>
+                                                                                                                                                            <a class="dropdown-item" href="http://localhost/arsip_surat/banner/edit/1">
+                                                        <i class="fa fa-edit"></i> Edit
+                                                    </a>
+                                                                                                                                                            <a class="dropdown-item record-delete-btn" href="http://localhost/arsip_surat/banner/delete/1/?csrf_token=858b3545e79fc0c8a378705e4497b05a&amp;redirect=banner/list?limit_count=20" data-prompt-msg="Are you sure you want to delete this record?" data-display-style="modal">
+                                                        <i class="fa fa-times"></i> Delete 
+                                                    </a>
+                                                                                                    </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                        <!--endrecord-->
+                                </div>
+                                <div class="row sm-gutters search-data" id="search-data-list-page-hdwuvne729iz"></div>
+                                <div>
+                                </div>
+                            </div>
+                                                        <div class=" border-top mt-2">
+                                <div class="row justify-content-center">    
+                                    <div class="col-md-auto">   
+                                    </div>
+                                    <div class="col">   
+                                    </div>
+                                </div>
+                            </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+					</div>	
+				<!-- Page Main Content [End] -->
+				<!-- Page Footer Start -->
+					<footer class="footer border-top">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="copyright">All Rights Reserved | © arsip_surat - 2023</div>
+			</div>
+			<div class="col">
+				<div class="footer-links text-right">
+					<a href="http://localhost/arsip_surat/info/about">About us</a> | 
+					<a href="http://localhost/arsip_surat/info/help">Help and FAQ</a> |
+					<a href="http://localhost/arsip_surat/info/contact">Contact us</a>  |
+					<a href="http://localhost/arsip_surat/info/privacy_policy">Privacy Policy</a> |
+					<a href="http://localhost/arsip_surat/info/terms_and_conditions">Terms and Conditions</a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</footer>				<!-- Page Footer Ends -->
+				<div class="flash-msg-container"></div>
+				<!-- Modal page for displaying ajax page -->
+				<div id="main-page-modal" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-body p-0 reset-grids inline-page">
+							</div>
+							<div style="top: 5px; right:5px; z-index: 999;" class="position-absolute">
+								<button type="button" class="btn btn-sm btn-danger" data-dismiss="modal">×</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Modal page for displaying record delete prompt -->
+				<div class="modal fade" id="delete-record-modal-confirm" tabindex="-1" role="dialog" aria-labelledby="delete-record-modal-confirm" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Delete record</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"> 
+									<span aria-hidden="true">×</span> 
+								</button>
+							</div>
+							<div id="delete-record-modal-msg" class="modal-body"></div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+								<a href="http://localhost/arsip_surat/Home" id="delete-record-modal-btn" class="btn btn-primary">Delete</a> 
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Image Preview Component [Start] -->
+				<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+					<div class="slides"></div>
+					<h3 class="title"></h3>
+					<a class="prev">‹</a>
+					<a class="next">›</a>
+					<a class="close">×</a>
+					<a class="play-pause"></a>
+					<ol class="indicator"></ol>
+				</div>
+				<!-- Image Preview Component [End] -->
+				<template id="page-loading-indicator"></template>
+				<template id="page-saving-indicator"></template>
+				<template id="inline-loading-indicator"></template>
+			</div>
+		</div>
+		<script>
+			var siteAddr = 'http://localhost/arsip_surat/';
+			var defaultPageLimit = 20;
+			var csrfToken = '858b3545e79fc0c8a378705e4497b05a';
+		</script>
+				<script type="text/javascript" src="./home_files/popper.js.download"></script>
+				<script type="text/javascript" src="./home_files/bootstrap-4.3.1.min.js.download"></script>
+						<script type="text/javascript" src="./home_files/flatpickr.min.js.download"></script>
+				<script type="text/javascript" src="./home_files/summernote.min.js.download"></script>
+				<script type="text/javascript" src="./home_files/bootstrap-editable.js.download"></script>
+				<script type="text/javascript" src="./home_files/dropzone.min.js.download"></script>
+				<script type="text/javascript" src="./home_files/plugins.js.download"></script>
+				<script type="text/javascript" src="./home_files/plugins-init.js.download"></script>
+				<script type="text/javascript" src="./home_files/page-scripts.js.download"></script>
+			
+</body></html>
